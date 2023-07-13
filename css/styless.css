@@ -1,0 +1,57 @@
+body {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(67, 68, 85, 1);
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+/* Primary color: rgba(46, 47, 66, 1)
+Secondary color: : rgba(67, 68, 85, 1)
+Thirdary color: rgba(255, 255, 255, 1)
+Fourth color: rgba(77, 90, 229, 1)
+Fifth color: rgba(244, 244, 253, 1)
+*/
+
+.logo {
+  color: rgba(77, 90, 229, 1);
+}
+.logo:hover {
+  color: rgba(46, 47, 66, 1);
+}
+
+.logo-studio {
+  color: rgba(46, 47, 66, 1);
+}
+.logo-studio:hover {
+  color: rgba(77, 90, 229, 1);
+}
+
+/* Site nav */
+.site-nav .link {
+  color: rgba(46, 47, 66, 1);
+}
+
+.site-nav .link:hover,
+.site-nav.link:focus {
+  color: rgba(77, 90, 229, 1);
+}
+
+/* Header 1 */
+.heading-one {
+  color: rgba(255, 255, 255, 1);
+}
+/* Header 2 */
+.heading-two {
+  color: rgba(46, 47, 66, 1);
+}
+/* Header 3 */
+.heading-three {
+  color: rgba(46, 47, 66, 1);
+}
+
+/* Section two */
+.section-two-list .heading-three {
+  color: rgba(46, 47, 66, 1);
+}
