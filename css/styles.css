@@ -216,8 +216,9 @@ Fifth color: rgba(244, 244, 253, 1)
   width: 264px;
 
   color: var(--cloud);
+}
 
-  /* Page header */
+/* Page header */
 
 /* Section one */
 .section-one {
