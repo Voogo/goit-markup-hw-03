@@ -1,8 +1,18 @@
 /* Page header */
 
 /* Section one */
+.section-one {
+  background-color: var(--navy-blue);
+}
 
 /* Section two */
 .section-two-list .heading-three {
   color: var(--navy-blue);
+}
+
+/* Section three */
+
+/* Section four */
+.section-four {
+  background-color: var(--cloud);
 }
