@@ -207,7 +207,7 @@ Fifth color: rgba(244, 244, 253, 1)
 } */
 
 .footer {
-  color: var(--white);
+  color: var(--cloud);
 }
 .footer:hover {
   color: var(--iris);
