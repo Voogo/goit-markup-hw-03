@@ -1,12 +1,12 @@
 :root {
-  --slate: rgba(67, 68, 85, 1);
-  --navy-blue: rgba(46, 47, 66, 1);
-  --iris: rgba(77, 90, 229, 1);
-  --cornflower: rgba(231, 233, 252, 1);
-  --cloud: rgba(244, 244, 253, 1);
-  --ocean: rgba(64, 75, 191, 1);
-  --white: rgba(255, 255, 255, 1);
-  --black: rgba(0, 0, 0, 1);
+  --slate: #434455;
+  --navy-blue: #2e2f42;
+  --iris: #4d5ae5;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --ocean: #404bbf;
+  --white: #ffffff;
+  --black: #000000;
 }
 
 body {
@@ -106,7 +106,7 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .button {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   /* line-height: 24px;  150% */
   line-height: 1.5;
