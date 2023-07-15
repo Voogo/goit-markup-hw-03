@@ -60,10 +60,10 @@ Fifth color: rgba(244, 244, 253, 1)
   text-transform: uppercase;
 }
 .logo:hover {
-  color: var(--navy-blue);
+  color: var(--iris);
 }
 
-.logo-studio {
+.logo-s {
   color: var(--navy-blue);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -74,7 +74,7 @@ Fifth color: rgba(244, 244, 253, 1)
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.logo-studio:hover {
+.logo-s:hover {
   color: var(--iris);
 }
 
@@ -188,7 +188,8 @@ Fifth color: rgba(244, 244, 253, 1)
 .footer {
   background-color: var(--navy-blue);
 }
-.footer-logo {
+/* Logo */
+/* .lfooter { 
   color: var(--iris);
 
   font-family: Raleway, sans-serif;
@@ -196,19 +197,14 @@ Fifth color: rgba(244, 244, 253, 1)
   font-style: normal;
   font-weight: 800;
 }
-.footer-logo:hover {
+.lfooter:hover {
+  color: var(--white);
+} */
+
+.footer {
   color: var(--white);
 }
-
-.footer-logo-studio {
-  color: var(--white);
-
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-}
-.footer-logo-studio:hover {
+.footer:hover {
   color: var(--iris);
 }
 
