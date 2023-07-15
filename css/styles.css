@@ -134,7 +134,7 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .button.secondary {
   background-color: var(--cloud);
-  color: var(--ocean);
+  color: var(--iris);
   border-color: var(--cloud);
 
   padding: 12px 24px;
