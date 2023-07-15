@@ -87,22 +87,23 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--iris);
+  color: var(--ocean);
 }
 
 .address {
   font-style: normal;
+  color: var(--slate);
 }
 
 .contact-list .link {
-  color: var(--navy-blue);
+  color: var(--slate);
   font-size: 16px;
   font-weight: 400;
 }
 
 .contact-list .link:hover,
 .contact-list .link:focus {
-  color: var(--iris);
+  color: var(--ocean);
 }
 
 .button {
