@@ -41,6 +41,10 @@ a {
   text-decoration: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 /* Primary color: rgba(46, 47, 66, 1)
 Secondary color: : rgba(67, 68, 85, 1)
 Thirdary color: rgba(255, 255, 255, 1)
