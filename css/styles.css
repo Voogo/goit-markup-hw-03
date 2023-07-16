@@ -121,7 +121,7 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .button.primary {
   color: var(--white);
-  background-color: var(--ocean);
+  background-color: var(--iris);
   border-color: var(--ocean);
 
   padding: 16px 32px;
