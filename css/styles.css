@@ -117,7 +117,7 @@ Fifth color: rgba(244, 244, 253, 1)
   line-height: 1.5;
   font-style: normal;
   font-weight: 500;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   letter-spacing: 0.64px;
 
   cursor: pointer;
@@ -141,7 +141,7 @@ Fifth color: rgba(244, 244, 253, 1)
   color: var(--iris);
   border-color: var(--cloud);
 
-  padding: 12px 24px;
+  /* padding: 12px 24px; */
 }
 .button.secondary:hover,
 .button.secondary:focus {
@@ -155,7 +155,7 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 /* Header 1 */
 .heading-one {
-  width: 496px;
+  /* width: 496px; */
 
   color: var(--white);
   text-align: center;
@@ -190,7 +190,7 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .paragraph-long {
-  width: 264px;
+  /* width: 264px; */
 }
 /* Section Four Main */
 
@@ -232,7 +232,7 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .footer-paragraph {
-  width: 264px;
+  /* width: 264px; */
 
   color: var(--cloud);
 }
