@@ -158,7 +158,7 @@ Fifth color: rgba(244, 244, 253, 1)
   /* width: 496px; */
 
   color: var(--white);
-  /* text-align: center; */
+  text-align: center;
 
   font-weight: 700;
   font-size: 56px;
@@ -169,7 +169,7 @@ Fifth color: rgba(244, 244, 253, 1)
 /* Header 2 */
 .heading-two {
   color: var(--navy-blue);
-  /* text-align: center; */
+  text-align: center;
 
   font-size: 36px;
   font-weight: 700;
@@ -197,7 +197,7 @@ Fifth color: rgba(244, 244, 253, 1)
 .card-list > li {
   background-color: var(--white);
   color: var(--slate);
-  /* text-align: center; */
+  text-align: center;
   /* Body */
   font-family: Roboto, sans-serif;
   font-size: 16px;
