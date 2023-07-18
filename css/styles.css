@@ -23,16 +23,13 @@ body {
   margin: 0;
 }
 
-p {
-  margin: 0;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   font-family: Roboto, Raleway, sans-serif;
   margin: 0;
 }
@@ -212,6 +209,7 @@ Fifth color: rgba(244, 244, 253, 1)
 /* Header 3 */
 .heading-three {
   color: var(--navy-blue);
+  margin-bottom: 6px;
 
   font-size: 20px;
   line-height: 1.2;
@@ -238,7 +236,56 @@ Fifth color: rgba(244, 244, 253, 1)
   letter-spacing: 0.32px;
 }
 
+/* Page header */
+.container.header {
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+}
+
+/* Section one */
+.section-one {
+  background-color: var(--navy-blue);
+
+  text-align: center;
+}
+
+.container.one {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+/* Section two */
+.section-two-list .heading-three {
+  color: var(--navy-blue);
+}
+
+.container.two {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* Section three */
+.container.three {
+  padding-bottom: 120px;
+}
+
+/* Section four */
+.section-four {
+  background-color: var(--cloud);
+}
+
+.container.four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* Footer */
+
+.container.footer {
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+}
+
 .footer {
   background-color: var(--navy-blue);
 }
@@ -264,25 +311,4 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .footer-paragraph {
   color: var(--cloud);
-}
-
-/* Page header */
-
-/* Section one */
-.section-one {
-  background-color: var(--navy-blue);
-
-  text-align: center;
-}
-
-/* Section two */
-.section-two-list .heading-three {
-  color: var(--navy-blue);
-}
-
-/* Section three */
-
-/* Section four */
-.section-four {
-  background-color: var(--cloud);
 }
