@@ -124,6 +124,11 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .button {
+  display: inline-block;
+  border: 1px solid transparent; /* not needed */
+  border-radius: 4px;
+  text-align: center;
+
   font-family: Roboto, sans-serif;
   font-size: 16px;
   /* line-height: 24px;  150% */
@@ -137,9 +142,8 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .button.primary {
-  display: inline-block;
-  border-radius: 4px;
   padding: 16px 32px;
+  min-width: 169px;
 
   color: var(--white);
   background-color: var(--iris);
@@ -152,9 +156,8 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .button.secondary {
-  display: inline-block;
-  border-radius: 4px;
   padding: 12px 24px;
+  /* min-width: 116px; */
 
   background-color: var(--cloud);
   color: var(--iris);
