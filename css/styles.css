@@ -52,6 +52,19 @@ Fourth color: rgba(77, 90, 229, 1)
 Fifth color: rgba(244, 244, 253, 1)
 */
 
+/* 1128 width */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1128px;
+  outline: 2px solid tomato;
+}
+
+.page-header {
+  background-color: greenyellow;
+}
+
 .logo {
   color: var(--iris);
   font-family: Raleway, sans-serif;
@@ -124,6 +137,10 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .button.primary {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 16px 32px;
+
   color: var(--white);
   background-color: var(--iris);
   border-color: var(--ocean);
@@ -135,6 +152,10 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .button.secondary {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 12px 24px;
+
   background-color: var(--cloud);
   color: var(--iris);
   border-color: var(--cloud);

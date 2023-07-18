@@ -15,10 +15,12 @@ body {
 
 .boxx {
   background-color: gold;
-  width: 700px;
+  width: 1230px;
   height: 700px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .btn {
