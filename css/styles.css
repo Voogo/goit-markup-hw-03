@@ -20,6 +20,11 @@ body {
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.32px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 h1,
@@ -29,6 +34,7 @@ h4,
 h5,
 h6 {
   font-family: Roboto, Raleway, sans-serif;
+  margin: 0;
 }
 
 a {
@@ -194,6 +200,7 @@ Fifth color: rgba(244, 244, 253, 1)
 .heading-two {
   color: var(--navy-blue);
   text-align: center;
+  margin-bottom: 72px;
 
   font-size: 36px;
   font-weight: 700;
