@@ -196,7 +196,7 @@ Fifth color: rgba(244, 244, 253, 1)
 /* Header 2 */
 .heading-two {
   color: var(--navy-blue);
-  text-align: center;
+
   margin-bottom: 72px;
 
   font-size: 36px;
@@ -216,6 +216,10 @@ Fifth color: rgba(244, 244, 253, 1)
   /* line-height: 24px; */
   font-weight: 500;
   letter-spacing: 0.4px;
+}
+
+.centered {
+  text-align: center;
 }
 
 /* .paragraph-long { 
@@ -311,4 +315,8 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .footer-paragraph {
   color: var(--cloud);
+}
+
+.img {
+  display: block;
 }
