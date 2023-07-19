@@ -164,9 +164,10 @@ Fifth color: rgba(244, 244, 253, 1)
 /* Section Four Main */
 
 .card-list > li {
+  text-align: center;
+
   background-color: var(--white);
   color: var(--slate);
-  text-align: center;
   /* Body */
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -185,12 +186,25 @@ Fifth color: rgba(244, 244, 253, 1)
 
 /* Page header */
 
+.container.header {
+  border-bottom: 1px solid var(--cornflower);
+  /* display: flex; */
+  /* align-items: center; */
+  width: 1158px;
+  padding: 0 15px;
+}
+
+/* Main */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* .page-header { 
   background-color: greenyellow;
 }*/
 .navigation {
   display: flex;
-  align-items: center;
 }
 
 .logo {
@@ -277,6 +291,7 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .contact-list {
   display: flex;
+  margin-left: auto;
 }
 
 .contact-list .item + .item {
@@ -296,19 +311,6 @@ Fifth color: rgba(244, 244, 253, 1)
 .contact-list .link:hover,
 .contact-list .link:focus {
   color: var(--ocean);
-}
-
-.container.header {
-  border-bottom: 1px solid var(--cornflower);
-  display: flex;
-  width: 1158px;
-  padding: 0 15px;
-}
-
-/* Main */
-.main-nav {
-  display: flex;
-  align-items: center;
 }
 
 /* Section one */
