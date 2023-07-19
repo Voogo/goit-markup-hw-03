@@ -205,6 +205,7 @@ Fifth color: rgba(244, 244, 253, 1)
 }*/
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -259,8 +260,11 @@ Fifth color: rgba(244, 244, 253, 1)
 /* .site-nav .item:last-child {
   margin-right: 0;
 } */
-.site-nav .item + .item {
-  margin-left: 40px;
+.site-nav .item {
+  margin-right: 40px;
+}
+.site-nav .item:last-child {
+  margin-right: 0;
 }
 
 /* .site-nav .item:not(:last-child) {
@@ -294,8 +298,11 @@ Fifth color: rgba(244, 244, 253, 1)
   margin-left: auto;
 }
 
-.contact-list .item + .item {
-  margin-left: 40px;
+.contact-list .item {
+  margin-right: 40px;
+}
+.contact-list .item:last-child {
+  margin-right: 0;
 }
 
 .contact-list .link {
