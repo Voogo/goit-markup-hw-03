@@ -325,14 +325,12 @@ Fifth color: rgba(244, 244, 253, 1)
 
 /* Section one */
 .section-one {
+  padding-top: 188px;
+  padding-bottom: 188px;
+
   background-color: var(--navy-blue);
 
   text-align: center;
-}
-
-.container.one {
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 /* Section two */
