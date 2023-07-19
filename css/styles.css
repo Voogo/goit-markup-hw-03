@@ -186,8 +186,11 @@ Fifth color: rgba(244, 244, 253, 1)
 
 /* Page header */
 
-.container.header {
+.header {
   border-bottom: 1px solid var(--cornflower);
+}
+
+.container.header {
   /* display: flex; */
   /* align-items: center; */
   width: 1158px;
