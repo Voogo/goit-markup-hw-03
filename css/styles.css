@@ -246,6 +246,8 @@ Fifth color: rgba(244, 244, 253, 1)
 
 /* Page header */
 .container.header {
+  border-bottom: 1px solid var(--cornflower);
+  display: flex;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
 }
