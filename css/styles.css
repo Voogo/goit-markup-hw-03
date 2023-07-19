@@ -340,6 +340,10 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 /* Section two */
+.section-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .section-two-list .heading-three {
   color: var(--navy-blue);
 }
@@ -360,15 +364,8 @@ Fifth color: rgba(244, 244, 253, 1)
   width: calc((100% - 72px) / 4);
 }
 
-.s-two {
-  padding-top: 120px 0;
-}
-.s-three {
-  padding-bottom: 120px;
-}
-
 .container.two h2 {
-  overflow: hidden;
+  display: none;
 }
 .section-two-list h3 {
   margin-bottom: 8px;
@@ -381,12 +378,38 @@ Fifth color: rgba(244, 244, 253, 1)
 
 /* Section four */
 .section-four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
   background-color: var(--cloud);
 }
 
-.container.four {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.card-list.list {
+  display: flex;
+}
+.card-list.list li:first-child {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-list.list li {
+  margin-right: 24px;
+}
+.card-list.list li:last-child {
+  margin-right: 0;
+}
+
+.stuff {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.stuff h3 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.stuff p {
+  text-align: center;
 }
 
 /* Footer */
