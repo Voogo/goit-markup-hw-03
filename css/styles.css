@@ -74,7 +74,14 @@ Fifth color: rgba(244, 244, 253, 1)
   background-color: greenyellow;
 }*/
 
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  margin-right: 76px;
+
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -106,9 +113,16 @@ Fifth color: rgba(244, 244, 253, 1)
 
 /* Site nav */
 .site-nav .link {
+  display: flex;
+  gap: 40px;
+
   color: var(--navy-blue);
   font-size: 16px;
   font-weight: 500;
+}
+
+.last {
+  margin-right: 0;
 }
 
 .site-nav .link:hover,
@@ -248,8 +262,8 @@ Fifth color: rgba(244, 244, 253, 1)
 .container.header {
   border-bottom: 1px solid var(--cornflower);
   display: flex;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 /* Section one */
