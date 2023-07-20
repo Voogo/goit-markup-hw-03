@@ -491,6 +491,15 @@ Fifth color: rgba(244, 244, 253, 1)
   margin-bottom: 0px;
 }
 
-/*.card-list li:first-child {
+.card-list li {
   width: calc((100% - 48px) / 3);
- } */
+}
+
+.card-info {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
+.card-info h2 {
+  margin-bottom: 8px;
+}
