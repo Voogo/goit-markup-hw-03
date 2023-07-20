@@ -364,7 +364,7 @@ Fifth color: rgba(244, 244, 253, 1)
   width: calc((100% - 72px) / 4);
 }
 
-.container.two h2 {
+.container.two .heading-two {
   display: none;
 }
 .section-two-list h3 {
