@@ -198,7 +198,7 @@ Fifth color: rgba(244, 244, 253, 1)
 .container.header {
   /* display: flex; */
   /* align-items: center; */
-  width: 1128px;
+  width: 1158px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
@@ -373,10 +373,21 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 /* Section three */
-.section.three {
+.section-three {
   padding-bottom: 120px;
 }
 
+.images-list {
+  display: flex;
+}
+
+.images-list .img-list {
+  width: calc((100% - 48px) / 3);
+}
+
+.images-list li:not(:last-child) {
+  margin-right: 24px;
+}
 /* Section four */
 .section-four {
   padding-top: 120px;
