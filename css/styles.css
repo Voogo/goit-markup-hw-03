@@ -102,6 +102,7 @@ Fifth color: rgba(244, 244, 253, 1)
 .button.secondary {
   padding: 12px 24px;
   /* min-width: 116px; */
+  border: 1px solid var(--cornflower);
 
   background-color: var(--cloud);
   color: var(--iris);
@@ -111,6 +112,7 @@ Fifth color: rgba(244, 244, 253, 1)
 .button.secondary:focus {
   color: var(--white);
   background-color: var(--ocean);
+  border: 1px solid transparent;
 }
 
 /* Paragraph Primary */
@@ -364,9 +366,6 @@ Fifth color: rgba(244, 244, 253, 1)
   width: calc((100% - 72px) / 4);
 }
 
-.container.two .heading-two {
-  display: none;
-}
 .section-two-list h3 {
   margin-bottom: 8px;
 }
@@ -445,3 +444,53 @@ Fifth color: rgba(244, 244, 253, 1)
 .footer-paragraph {
   color: var(--cloud);
 }
+
+/* Portfolio */
+
+.visually-hidden {
+  display: none;
+}
+
+.section-five {
+  padding: 96px 0 120px 0;
+}
+
+.bu-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.bu-list li {
+  margin-right: 24px;
+}
+
+.bu-list li:last-child {
+  margin-right: 0;
+}
+
+.cards.list {
+  width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 24px;
+}
+
+.cards.list li {
+  width: 360px;
+  margin-right: 24px;
+  margin-bottom: 48px;
+  background-color: tomato;
+}
+
+.cards.list li:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.cards.list li:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+
+/*.card-list li:first-child {
+  width: calc((100% - 48px) / 3);
+ } */
