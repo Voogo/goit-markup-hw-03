@@ -432,9 +432,9 @@ Fifth color: rgba(244, 244, 253, 1)
   background-color: var(--navy-blue);
 }
 
-.container .footer-one {
+/* .container .footer-one {
   display: inline-block;
-}
+} */
 /* Logo */
 /* .lfooter { 
   color: var(--iris);
@@ -450,6 +450,10 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .footer {
   color: var(--cloud);
+}
+
+.space {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
