@@ -357,6 +357,9 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 .hidden {
   display: none;
+  padding: 8px;
+  border: 1px solid blue;
+  border-radius: 3px;
 }
 .section-two-list {
   display: flex;
