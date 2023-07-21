@@ -352,7 +352,6 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .visually-hidden {
-  /* display: block;*/
   display: none;
 }
 
