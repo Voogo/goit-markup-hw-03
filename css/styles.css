@@ -352,10 +352,12 @@ Fifth color: rgba(244, 244, 253, 1)
   color: var(--navy-blue);
 }
 
-.visually-hidden {
+.visually {
   display: none;
 }
-
+.hidden {
+  display: block;
+}
 .section-two-list {
   display: flex;
 }
@@ -485,11 +487,11 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .bu-list li {
   margin-right: 24px;
-  border: 1px solid var(--cornflower);
+  border: 1px solid var(--cornflower #e7e9fc);
 }
 
 .bu-li-item-s {
-  border: 1px solid var(--cornflower);
+  border: 1px solid var(--cornflower #e7e9fc);
 }
 
 .bu-list li:last-child {
