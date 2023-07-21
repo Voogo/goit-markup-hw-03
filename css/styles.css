@@ -102,7 +102,7 @@ Fifth color: rgba(244, 244, 253, 1)
 .button.secondary {
   padding: 12px 24px;
   /* min-width: 116px; */
-  border: 1px solid var(--cornflower #e7e9fc);
+  border: 1px solid #e7e9fc;
 
   background-color: var(--cloud);
   color: var(--iris);
@@ -487,11 +487,11 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .bu-list li {
   margin-right: 24px;
-  border: 1px solid var(--cornflower #e7e9fc);
+  border: 1px solid var(--cornflower);
 }
 
 .bu-li-item-s {
-  border: 1px solid var(--cornflower #e7e9fc);
+  border: 1px solid var(--cornflower);
 }
 
 .bu-list li:last-child {
