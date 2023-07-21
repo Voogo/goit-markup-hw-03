@@ -102,7 +102,7 @@ Fifth color: rgba(244, 244, 253, 1)
 .button.secondary {
   padding: 12px 24px;
   /* min-width: 116px; */
-  border: 1px solid var(--cornflower);
+  border: 1px solid var(--cornflower #e7e9fc);
 
   background-color: var(--cloud);
   color: var(--iris);
@@ -353,10 +353,10 @@ Fifth color: rgba(244, 244, 253, 1)
 }
 
 .visually {
-  display: none;
+  display: block;
 }
 .hidden {
-  display: block;
+  display: none;
 }
 .section-two-list {
   display: flex;
