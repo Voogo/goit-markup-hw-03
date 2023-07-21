@@ -352,6 +352,10 @@ Fifth color: rgba(244, 244, 253, 1)
   color: var(--navy-blue);
 }
 
+.visually-hidden {
+  display: none;
+}
+
 .section-two-list {
   display: flex;
 }
@@ -432,9 +436,9 @@ Fifth color: rgba(244, 244, 253, 1)
   background-color: var(--navy-blue);
 }
 
-.container .footer-one {
+/* .container .footer-one {
   display: inline-block;
-}
+} */
 /* Logo */
 /* .lfooter { 
   color: var(--iris);
@@ -450,6 +454,7 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .space {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer {
@@ -468,10 +473,6 @@ Fifth color: rgba(244, 244, 253, 1)
 
 /* Portfolio */
 
-.visually-hidden {
-  display: none;
-}
-
 .section-five {
   padding: 96px 0 120px 0;
 }
@@ -484,6 +485,10 @@ Fifth color: rgba(244, 244, 253, 1)
 
 .bu-list li {
   margin-right: 24px;
+  border: 1px solid var(--cornflower);
+}
+
+.bu-li-item-s {
   border: 1px solid var(--cornflower);
 }
 
